@@ -1,0 +1,22 @@
+body{
+  /* background: url(https://miro.medium.com/v2/resize:fit:5120/1*GsImz-edoeuqCMfKxDus0w.jpeg); */
+  /* background: url(https://i.pinimg.com/originals/10/91/31/109131a1c9ba16bddcff5b0938ff1d8d.png); */
+  background: url(https://t1.daumcdn.net/tistoryfile/fs9/16_tistory_2008_06_24_12_06_486064b1ba38f?origina);
+  
+  height:50vh;
+  background-size : cover;
+}
+.container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center; 
+}
+.weather-box {
+  border: 3px solid white;
+  padding: 50px;
+  border-radius: 30px;
+  background-color:rgba(240, 255, 255, 0.1);  
+}
